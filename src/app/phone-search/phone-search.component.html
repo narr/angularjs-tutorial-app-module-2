@@ -1,0 +1,13 @@
+<p>
+  Search:
+  <input ng-model="phoneSearchVm.searchStr"
+    ng-change="phoneSearchVm.onSearchChange({search: phoneSearchVm.searchStr})">
+</p>
+<p>
+  Sort by:
+  <select ng-model="phoneSearchVm.selectedOrder"
+    ng-change="phoneSearchVm.onSelectChange({sort: phoneSearchVm.selectedOrder})">
+    <option value="name">Alphabetical</option>
+    <option value="age">Newest</option>
+  </select>
+</p>

@@ -4,4 +4,4 @@
 
 'use strict';
 
-import './phone-serach';
+import './phone-search';

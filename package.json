@@ -2,7 +2,8 @@
   "name": "angularjs-tutorial-app-module-2",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "^1.6.6"
+    "angular": "^1.6.6",
+    "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
